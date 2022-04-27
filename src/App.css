@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  width: 350px;
+  margin: 5% auto;
+}
+
+
+.searchBox {
+  width: 100%;
+  padding: 8px;
+  font-size: 1.2rem;
+  color: aqua;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.fetchdatas{
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  /* box-shadow: 0 2px 6px ((red), green, blue, alpha); */
+}
+.data{
+  border-bottom: 1px solid #e6e6e6;
+  padding: 12px 6px;
+  cursor: pointer;
+  color: dodgerblue;
+  font-weight: bold;
+}
