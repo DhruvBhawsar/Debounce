@@ -44,11 +44,11 @@ function App() {
       />
       {search?.length > 0 && (
         <div className={"fetchdatas"}>
-          {search?.map((el, i) => {
+          {search?.map((el, i) => (
             <div key={i} className={"data"}>
-              <span>{el.name}</span>
-            </div>;
-          })}
+              <h4>{el.name}</h4>
+            </div>
+          ))}
         </div>
       )}
     </div>
